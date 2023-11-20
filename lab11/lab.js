@@ -16,8 +16,21 @@ $("#submit").click(function(){
 });
 }
 
+// click listener for button
+$("#submit").click(function(){
+    // now let's sort it
+    userNameSorted = sortString(Name);
+});
+
+
+
 // get value of input field
-const userName = $("#user-name").val();
+const Name = $("#user-name").val();
+
+
 // now let's sort it
-userNameSorted = sortString(userName);
+userNameSorted = sortString(Name);
+
+
+// append a new div to our output div
 $("#output").html('<div class="text"><p>' + userNameSorted + '</p></div>');
