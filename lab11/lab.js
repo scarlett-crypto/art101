@@ -16,18 +16,9 @@ $("#submit").click(function(){
 });
 }
 
-// click listener for button
-$("#submit").click(function(){
-    // now let's sort it
-    userNameSorted = sortString(Name);
-});
-
-
 
 // get value of input field
 const Name = $("#user-name").val();
-
-
 // now let's sort it
 userNameSorted = sortString(Name);
 
