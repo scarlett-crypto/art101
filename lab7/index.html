@@ -23,27 +23,55 @@
 	<!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
 	<main id="content">
 		<section>
-			<h1>Lab 9 - Subject/Topic</h1>
+			<h1>Lab 7 </h1>
 			<div class="minor-section">
 					<h2>Challenge</h2>
 					<p>Restate the challenge of the lab here.</p>
-                    <button id='button-challenge'>Make Special</button>"
+                    Working with your partner, write functions that take user input.
 			</div>
             
 
 			<div class="minor-section">
 					<h2>Problems</h2>
 					<p>What problems arose? How did you solve them? </p>
+                    I had to fix my button to make it work by looking at my notes.
 			</div>
+
 
 			<div class="minor-section">
 					<h2>Reflection</h2>
 					<p>Put your reflections about this assignment here. How did it go? What kind of energy did you put into the assignment? </p>
+                    This was fun because I acutally did it right
 			</div>
 
 			<div class="minor-section">
 					<h2>Results</h2>
 					<div id="output"></div>
+                    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Input Example</title>
+</head>
+<body>
+
+<label for="userInput">Enter Your Name:</label>
+<input type="text" id="userInput">
+<button onclick="showUserInput()">Submit</button>
+
+<script>
+    function showUserInput() {
+        // Get the user input from the input field
+        var userInput = document.getElementById('userInput').value;
+
+        // Display the user input in an alert
+        alert('Hello, ' + userInput + '!');
+    }
+</script>
+
+</body>
+</html>
 			</div>
 		</section>
 		<nav id="links">
@@ -57,11 +85,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Click Me Button</title>
-</head>
-<body>
 
-<button id="clickMeButton">Click Me</button>
 
 <script>
     // Get the button element by its id
@@ -76,3 +100,6 @@
 
 </body>
 </html>
+
+
+

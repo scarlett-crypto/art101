@@ -7,7 +7,18 @@
    Date: 2023
 */
 
-$("button-challenge").click(function(){
-    // now add (or subtract) the "special" class to the section
-    $("#challenge").toggleClass("special");
-});
+
+$
+
+
+function selectPrize() {
+    var butn1 = document.getElementById.onclick();
+
+    if (butn1) {("#challenge").append("<button id='button-challenge'>Click Me!</button>");
+
+        alert("You won a new Car");
+
+    }
+
+<input type="button" id="btn1" value="ClickMe" onclick="selectPrize()"></input>
+ }
